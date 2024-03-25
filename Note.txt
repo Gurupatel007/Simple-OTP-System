@@ -1,0 +1,5 @@
+In line 129 change your email with passowrd to send emails.(note : turn on less secure apps in your google account settings)
+
+In line 153 change the email to send emails to the user.
+
+In line 224 change the account id and auth token that you got from twilio.

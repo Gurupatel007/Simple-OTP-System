@@ -1,0 +1,10 @@
+CREATE TABLE accounts (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  phonenumber VARCHAR(15) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  dob DATE NOT NULL,
+  gender ENUM('Male', 'Female', 'Other') NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);

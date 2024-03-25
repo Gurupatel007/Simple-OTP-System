@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm" action="/login" method="post">
+      <label for="identifier">Email or Phone Number:</label>
+      <!-- <input type="text" name="identifier" placeholder="Enter Email or Phone Number" required> -->
+      <input type="text" name="identifier" placeholder="Enter Email or Phone Number" required>
+
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="Enter Password" required>
+
+      <button type="submit">Login</button>
+      <br><br>
+      <a href="/signup">Don't have an account? Register here</a>
+      <!-- forgot password -->
+      <br><br>
+      <a href="/forgot-password">Forgot Password?</a>
+    </form>
+  </div>
+</body>
+</html>

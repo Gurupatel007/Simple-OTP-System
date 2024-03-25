@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration</h1>
+    <form id="registrationForm" action="/register" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="Enter Name" required>
+
+      <label for="phonenumber">Phone Number:</label>
+      <input type="text" name="phonenumber" placeholder="Enter Phone Number" required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Enter Email" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" required>
+
+      <label for="gender">Gender:</label>
+      <select name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="Enter Password" required>
+
+      <button type="submit">Register</button>
+      <br><br>
+      <a href="/">Already have an account? Sign in here</a>
+    </form>
+  </div>
+</body>
+</html>
