@@ -20,11 +20,8 @@ Before you begin, ensure you have the following installed on your system:
 If the code is hosted on GitHub, clone the repository to your local machine. If you've received the code via other means, skip this step.
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone <https://github.com/Gurupatel007/Simple-OTP-System.git>
 ```
-
-Replace `<repository-url>` with the URL of the Git repository and `<repository-directory>` with the name of the folder where the repository is cloned.
 
 ### 2. Install Dependencies
 
@@ -113,15 +110,6 @@ nodemon
 ```
 
 The application will start running on `http://localhost:3000`. Open a web browser and navigate to this URL to interact with the application.
-
-## Usage
-
-- **User Registration:** Navigate to `/signup` to register a new user account.
-- **User Login:** After registration, go to the main page `/` to log in.
-- **Forgot Password:** If a password is forgotten, navigate to `/forgot-password` to initiate the password reset process.
-- **Send OTP:** On the forgot password page, enter your registered email or phone number to receive an OTP.
-- **Verify OTP:** After receiving the OTP, enter it on the verification page to verify your identity.
-- **Reset Password:** Once verified, you will be redirected to reset your password.
 
 ## Features
 
