@@ -1,7 +1,6 @@
 # Simple-OTP-System
 A streamlined OTP system for password recovery, designed to send a time-sensitive OTP to your email or mobile. If not used within a set timeframe, the OTP expires, ensuring enhanced security for when you need to reset your forgotten passwords.
 
-```
 # Application Setup and Run Guide
 
 This guide provides step-by-step instructions on how to set up and run the provided Node.js application, which uses Express, MySQL, and other packages to create a basic user authentication system.
@@ -152,4 +151,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - EJS
 - Nodemailer
 - Twilio
-```
